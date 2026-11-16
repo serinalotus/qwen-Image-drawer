@@ -1,0 +1,88 @@
+══ Python 桌面版冒烟 ══  mock=http://127.0.0.1:4273
+  PASS 配置已隔离写入临时 APPDATA
+  PASS 主窗口创建成功
+  PASS 左表单右预览布局
+  PASS 启动时有提示词占位与空预览
+  PASS 状态栏展示配置摘要
+  PASS 首屏截图已生成
+  PASS 自动尺寸能通过校验
+  PASS 自动尺寸不下发 size（原生）
+  PASS 自动尺寸不下发 size（OpenAI）
+  PASS 自定义尺寸通过校验
+  PASS 原生协议用 宽*高
+  PASS OpenAI 协议用 宽x高
+  PASS 最大 2048×2048 可用
+  PASS 超小尺寸被拦截
+  PASS 超长宽比被拦截
+  PASS 预设数量扩充（≥20 项）
+  PASS 选自定义后出现宽高输入
+  PASS 自定义尺寸写进 payload
+  PASS 自定义尺寸提示为有效
+  PASS 自定义尺寸截图已生成
+  PASS 自定义尺寸过小时给出错误
+  PASS 切回预设后自定义行隐藏
+  PASS 模型列表接口成功
+  PASS 只保留 qwen-image 系列
+  PASS 发现内置列表之外的新模型
+  PASS 刷新后下拉包含新模型
+  PASS 刷新结果写入配置
+  PASS 新模型能力按 id 推断
+  PASS 模型刷新截图已生成
+  PASS 保存提示词弹出命名对话框
+  PASS 提示词已写入 prompts.json
+  PASS 保存后状态栏给出提示
+  PASS 提示词库对话框打开
+  PASS 提示词库列出了收藏
+  PASS 提示词库截图已生成
+  PASS 载入后提示词回到表单
+  PASS 载入后反向提示词也恢复
+  PASS 点击生成后进入生成中状态
+  PASS 文生图流程结束（未超时）
+  PASS 请求打到 DashScope 原生接口
+  PASS 请求带 Bearer Key
+  PASS 请求包含提示词
+  PASS 请求张数为 2
+  PASS 请求尺寸为 1024x1024
+  PASS 预览进入结果态
+  PASS 出图 2 张
+  PASS 自动保存 2 个文件
+  PASS 出图截图已生成
+  PASS 状态栏显示完成
+  PASS 参考图可加入表单
+  PASS 参考图数量正确
+  PASS 图生图流程结束
+  PASS 图生图请求带参考图 data URL
+  PASS 图生图出图成功
+  PASS 图生图截图已生成
+  PASS 错误态进入 error
+  PASS 错误标题为 API Key 无效
+  PASS 错误态截图已生成
+  PASS 设置对话框可打开
+  PASS 设置截图已生成
+  PASS 设置对话框可关闭
+  PASS 应用图标存在
+  PASS Esc 已绑定取消生成
+  PASS 窗口尺寸可恢复
+  PASS 尺寸异常时回落到默认
+  PASS 耗时格式（秒）
+  PASS 耗时格式（分）
+  PASS 焦点提示：提示词框
+  PASS 焦点提示：窗口/预览
+  PASS 提示词框聚焦时有强调描边
+  PASS 聚焦时整张卡片一起高亮
+  PASS 聚焦态截图已生成
+  PASS 失焦后描边复原
+  PASS 失焦后卡片描边复原
+  PASS 拖放区文案提到拖拽
+  PASS 粘贴文字：内容进入提示词框
+  PASS 粘贴文字：首次耗时小于 1.2 秒（含 Tk 剪贴板初始化）
+  PASS 粘贴文字：稳态耗时小于 0.1 秒
+  PASS 粘贴文字：没有被当成图片
+  PASS 粘贴图片：参考图 +1
+  PASS 粘贴图片：耗时小于 2 秒
+  PASS 粘贴参考图截图已生成
+  PASS 拖放已安装
+  PASS 拖放：参考图 +1
+  PASS 焦点/交互截图已生成
+
+结果：85 passed, 0 failed
